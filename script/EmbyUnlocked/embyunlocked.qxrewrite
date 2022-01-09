@@ -1,0 +1,4 @@
+#重写验证域名处理方式
+^https:\/\/mb3admin\.com\/admin\/service(\/registration\/validateDevice|\/appstore\/register|\/registration\/validate|\/registration\/getStatus|\/supporter\/retrievekey) url script-echo-response https://raw.githubusercontent.com/wyxls/ios_script/main/script/EmbyUnlocked/js/quantumultx.js
+
+hostname = mb3admin.com
